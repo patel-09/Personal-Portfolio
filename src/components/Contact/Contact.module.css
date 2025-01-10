@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+/* Base container styles */
 .container {
   color: var(--color-text);
   margin-top: 120px;
@@ -10,20 +11,28 @@
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  box-sizing: border-box;
 }
 
+/* Title (h2) styles */
 .text h2 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
+/* Paragraph styles */
 .text p {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
+/* Link container */
 .links {
   display: flex;
   flex-direction: column;
@@ -32,6 +41,7 @@
   gap: 26px;
 }
 
+/* Individual link style */
 .link {
   display: flex;
   align-items: center;
@@ -44,21 +54,106 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: color 0.3s ease;
 }
 
+.link a:hover {
+  color: var(--color-primary); /* Change to desired hover color */
+}
+
+/* Mobile responsiveness */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    padding: 40px 5%;
+    gap: 20px;
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  .text h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 25px;
   }
 
   .links {
     align-items: center;
+    gap: 20px;
+  }
+
+  .link a {
+    font-size: 22px;
+  }
+}
+
+/* Tablet Portrait & Landscape */
+@media (min-width: 831px) and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 50px 8%;
+  }
+
+  .text h2 {
+    font-size: 65px;
+    letter-spacing: 3px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .link a {
+    font-size: 26px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .container {
+    padding: 58px 10%;
+    gap: 15px;
+  }
+
+  .text h2 {
+    font-size: 75px;
+    letter-spacing: 4px;
+  }
+
+  .text p {
+    font-size: 35px;
+  }
+
+  .link a {
+    font-size: 28px;
+  }
+}
+
+/* Large Screen (Desktop and TV) */
+@media (min-width: 1441px) {
+  .container {
+    padding: 80px 15%;
+    gap: 30px;
+  }
+
+  .text h2 {
+    font-size: 85px;
+    letter-spacing: 4px;
+  }
+
+  .text p {
+    font-size: 40px;
+  }
+
+  .link a {
+    font-size: 30px;
   }
 }
