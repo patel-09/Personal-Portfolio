@@ -11,7 +11,7 @@ export const Hero = () => {
         <p className={styles.description}>
         Turning challenges into opportunities – an aspiring developer eager to make a difference
         </p>
-        <a href="Resume.pdf" className={styles.contactBtn}>
+        <a href="assets/hero/Resume.pdf" className={styles.contactBtn}>
           Resume
         </a>
       </div>
