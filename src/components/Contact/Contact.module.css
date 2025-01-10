@@ -44,7 +44,7 @@
 /* Individual link style */
 .link {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 25px;
 }
 
@@ -86,7 +86,7 @@
   }
 
   .links {
-    align-items: center;
+    align-items: start;
     gap: 20px;
   }
 
