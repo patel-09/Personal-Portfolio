@@ -19,16 +19,18 @@ export const About = () => {
               <h3>Little Bit About Me!
               </h3><br></br>
               <p>
-               My primary focus is on crafting intuitive and visually engaging user interfaces that provide seamless user experiences. With a strong eye for design and attention to detail, I excel in using tools like Figma to transform ideas into polished prototypes and functional designs
+I’m a passionate developer with a strong focus on crafting intuitive, user-friendly interfaces and translating ideas into functional, visually appealing designs. I specialize in frontend development using tools like Figma, React.js, and JavaScript, with a keen eye for design and detail.
               </p>
               <br></br>
               <p>
-              In addition to my frontend expertise, I have hands-on experience with backend development, including building RESTful APIs using Spring Boot and managing databases with MySQL. During my time as an intern and through academic projects, I’ve worked collaboratively in Agile environments, contributing to end-to-end development and refining my skills in both design and coding.
+Beyond the frontend, I have solid hands-on experience in backend development using Java, Python, and JDBC, including building RESTful APIs, setting up CI/CD pipelines, and working with MySQL and MongoDB databases. I've also contributed to projects involving role-based authentication, data visualizations, and full-stack web apps like Dal Book and Transect Visualization.
               </p>
               <br></br>
               <p>
-              I am currently seeking co-op or internship opportunities where I can leverage my skills while continuing to grow as a developer.
+              Having worked in Agile/Scrum teams, followed SDLC and TDD practices, and collaborated through platforms like GitLab, Jira, and Confluence, I’m confident in handling both collaborative and individual development tasks.
               </p>
+              <br></br>
+              <p>I’m currently seeking co-op or internship opportunities where I can apply and expand my skills  while contributing meaningfully to real-world projects.</p>
             </div>
           </li>
         </ul>

@@ -3,7 +3,19 @@
     "title": "DalBook",
     "imageSrc": "projects/project.png",
     "description": "This is a project made for Dalhousie students to connects and engage with thier friends.",
-    "skills": ["React", "Javascript", "Node" , "SpringBoot" , "MySQL"],
-    "source": "https://www.github.com"
+    "skills": ["React", "Javascript", "Node" , "SpringBoot" , "MySQL"]
+  },
+    {
+    "title": "Transect Visualization",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made for Dalhousie students to connects and engage with thier friends.",
+    "skills": ["React", "Javascript", "Python" , "FireBase" , "MongoDB"]
+  },
+      {
+    "title": "Student Observation Tool",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made for Dalhousie students to connects and engage with thier friends.",
+    "skills": ["PHP", "Javascript", "PhpMyadmin" , "HTML" , "CSS"]
   }
+
 ]
