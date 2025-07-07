@@ -8,7 +8,7 @@
     {
     "title": "Transect Visualization",
     "imageSrc": "projects/project.png",
-    "description": "Developed an interactive platform that visualizes coastal transect data in an accessible and engaging way, helping researchers and stakeholders monitor environmental changes and make informed decisions.",
+    "description": "Created an interactive platform to display and analyze coastal data for researchers and stakeholders.",
     "skills": ["React", "Javascript", "Python" , "FireBase" , "MongoDB"]
   },
       {
