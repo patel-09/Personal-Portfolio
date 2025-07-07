@@ -2,7 +2,7 @@
   {
     "title": "DalBook",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made for Dalhousie students to connects and engage with thier friends.",
+    "description": "Built a web application for university students to share updates and chat in real time, supporting collaboration and connection",
     "skills": ["React", "Javascript", "Node" , "SpringBoot" , "MySQL"]
   },
     {
