@@ -8,13 +8,13 @@
     {
     "title": "Transect Visualization",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made for Dalhousie students to connects and engage with thier friends.",
+    "description": "Developed an interactive platform that visualizes coastal transect data in an accessible and engaging way, helping researchers and stakeholders monitor environmental changes and make informed decisions.",
     "skills": ["React", "Javascript", "Python" , "FireBase" , "MongoDB"]
   },
       {
     "title": "Student Observation Tool",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made for Dalhousie students to connects and engage with thier friends.",
+    "description": "Helped build a web-based tool that supports professors in monitoring and managing student progress and performance.",
     "skills": ["PHP", "Javascript", "PhpMyadmin" , "HTML" , "CSS"]
   }
 
